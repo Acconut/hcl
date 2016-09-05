@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/hcl/hcl/ast"
-	"github.com/hashicorp/hcl/testhelper"
+	"github.com/Acconut/hcl/hcl/ast"
+	"github.com/Acconut/hcl/testhelper"
 )
 
 func TestDecode_interface(t *testing.T) {
@@ -820,7 +820,7 @@ nested "content" {
 	}
 }
 
-// https://github.com/hashicorp/hcl/issues/60
+// https://github.com/Acconut/hcl/issues/60
 func TestDecode_topLevelKeys(t *testing.T) {
 	type Template struct {
 		Source string
